@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>메이크업</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+	<style>
+
+	 	body{margin:0; padding: 0; text-align: justify; line-height: 1.7;
+	 	font-family: 'Noto Sans KR', sans-serif;}
+	 	h2{font-family: 'Oswald', sans-serif;}
+
+	 	header,footer{height: 300px; background: white;}
+	 	section{height: 600px; padding-top: 100px; line-height: 1.7;
+	 	font-family: 'Noto Sans KR', sans-serif;}
+	 
+		.wrap{width: 800px; margin: auto;  
+			height: 300px; font-family: 'Noto Sans KR', sans-serif;}
+		.text{font-family: 'Noto Sans KR', sans-serif;}
+			
+		header .wrap, footer .wrap{width: 100%;}
+		footer .wrap{height: 300px; background: pink; color: black;
+			text-align: center; font-family: 'Noto Sans KR', sans-serif;
+			font-size: 11px;}
+
+		section .wrap{ height: 300px; font-family: 'Noto Sans KR', sans-serif;}
+		#w1{height: 600px;}
+		#w2{height: 300px;}
+		#w3{height: 300px;}
+
+
+		header .wrap{background: url(brush.jpg);
+			height: 300px; background-size: cover;
+			background-position: 0px -460px; 
+		font-family: 'Oswald', sans-serif;}
+ 
+
+		header .wrap h1{color:pink; text-align: center; font-size: 50px;
+
+			position: absolute; top: 100px; left:calc(50% - 100px);
+
+			background: white; width: 300px; height: 80px;
+			 opacity:0.9;
+			}
+ 
+
+		.pan{background: white; opacity: 0; height: 300px; 
+
+			transition: all 1s;}
+
+		.pan:hover{opacity: 0.4;}
+
+	
+		}
+
+		
+
+
+		#img1{width: 600px;}
+		#img2{width: 400px;}
+		#img3{width: 400px; position: absolute; left:950px; top: 1500px;}
+		#img4{width: 400px; position: absolute; left:550px; top: 1900px;}
+		
+		#t1{font-size: 15px; position: absolute; left: 900px; top: 550px;}
+		#t2{font-size: 15px; position: absolute; left: 1000px; top: 1100px;}
+		#t3{font-size: 15px; position: absolute; left: 580px; top: 1500px;}
+		#t4{font-size: 15px; position: absolute; left: 1000px; top: 1900px;}
+
+		#monitor{position: fixed; background: white;
+			color: white;
+
+		padding: 5px;  top: 0; right: 0;
+
+			width: 70px; height: 20px;
+}
+ 
+ 			@keyframes ab{
+			from{top: 600px; opacity: 0;}
+			to{top: 500px; opacity: 1;}
+			}
+
+			@keyframes cd{
+			from{top: 1200px; opacity: 0;}
+			to{top: 1100px; opacity: 1;}
+			}
+
+			@keyframes ef{
+			from{top: 1200px; opacity: 0;}
+			to{top: 1100px; opacity: 1;}
+			}
+
+			@keyframes gh{
+			from{top: 1600px; opacity: 0;}
+			to{top: 1500px; opacity: 1;}
+			}
+
+			@keyframes ij{
+			from{top: 1600px; opacity: 0;}
+			to{top: 1500px; opacity: 1;}
+			}
+
+			@keyframes kl{
+			from{top: 2000px; opacity: 0;}
+			to{top: 1900px; opacity: 1;}
+			}
+
+			@keyframes mn{
+			from{top: 2000px; opacity: 0;}
+			to{top: 1900px; opacity: 1;}
+			}
+	</style>
+
+</head>
+
+<body>
+
+	
+
+		<header>
+			<div class="wrap">
+				<div class="pan"></div>
+				<h1>Make-up</h1>
+			</div>
+		</header>
+
+		<section class="s1">
+
+			<div class="wrap" id="w1">
+				<img src="hair.jpeg" id="img1">
+			</div>
+			<div id="t1" class="text">
+			<h2>Hair Design</h2>
+			애쉬브라운 염색<br>
+			뿌리 볼륨을 줘서 머리 숱이 풍성해 보이도록 한다.<br>
+			앞머리와 옆머리가 자연스럽게 이어지는 것이 가장 <br>중요해야되는 부분<br>
+			c컬펌이 풀린 부분은 안쪽으로도 넣어주고, <br>바깥으로도 뻗치게 해 자연스러운 느낌을 준다.
+			<br>
+		</div>
+		</section>
+
+		<section  class="s2">
+			<div class="wrap" id="w2">
+				<img src="eye.jpeg" id="img2">
+			</div>
+			<div id="t2" class="text">
+			<h2>Eyes Make-up</h2>
+			캐치아이 브라운 캣 - 브라운 렌즈<br>
+			대체로 핑크빛 도는 섀도우와 펄감이 많은<br> 섀도우를 섞어 사용한다.<br>
+			아이라인은 점막을 다 채우고 살짝 위로 <br>올라가게 그린다.<br>
+			마스카라는 컬링을 살려 위로 올라가게 잘<br> 고정시켜준다.<br>
+		</div>
+		</section>
+
+		<section  class="s3">
+			<div class="wrap" id="w3">
+				<img src="lip.jpeg" id="img3">
+			</div>
+			<div id="t3" class="text">
+			<h2>Lip Make-up</h2>
+			건조하지 않게 립밤을 꼼꼼히 발라준다<br>
+			누디한 색의 제품을 전체적으로 깔아준다.<br>
+			매트한 타입의 핑크빛 도는 틴트를 가운데 <br>중심으로 바른다.<br>
+		</div>	
+
+			<div class="wrap" id="w4">
+				<img src="blur.jpeg" id="img4">
+			</div>
+	
+			<div id="t4" class="text">
+			<h2>Skin Make-up</h2>
+			21호 파운데이션을 바른다.<br>
+			컨실러로 잡티나 다크서클을 가려준다.<br>
+			쉐이딩은 자연스럽게 턱과 광대 위주로 해준다.<br>
+			블러셔는 입술색과 맞춰 핑크빛 도는 <br> 가루타입제품으로 사선을 그려 바른다.<br>
+		</div>	
+	</section>
+
+		<div id="monitor"></div>
+		<script type="text/javascript">
+			window.onscroll = function(){
+			var t = document.documentElement.scrollTop + document.body.scrollTop;
+			monitor.innerHTML = t. toFixed(1);
+
+			if(t>1){t1.style.animation = "ab 3s forwards";}
+			else{ t1.style.animation = "";}
+
+			if(t>200){t2.style.animation = "cd 3s forwards";}
+			else{ t2.style.animation = "";}
+			if(t>180){img2.style.animation = "ef 3s forwards";}
+			else{ img2.style.animation = "";}
+
+			if(t>580){img3.style.animation = "gh 3s forwards";}
+			else{ img3.style.animation = "";}
+			if(t>630){t3.style.animation = "ij 3s forwards";}
+			else{ t3.style.animation = "";}
+
+			if(t>950){img4.style.animation = "kl 3s forwards";}
+			else{ img4.style.animation = "";}
+			if(t>1000){t4.style.animation = "mn 3s forwards";}
+			else{ t4.style.animation = "";}
+
+		
+		}
+
+		</script>
+
+		<footer>
+
+			<div class="wrap">
+				<br><br><br>한경대학교 디자인학과 2018286077 정다운
+			</div>
+
+		</footer>
+
+	
+
+</body>
+
+</html>
+
